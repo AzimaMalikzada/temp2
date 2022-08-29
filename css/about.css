@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+.main{
+	background: black;
+	width: 1600px;
+	height: 757px;
+	float: left;
+	color: white;
+}
+.header{
+	width: 50%;
+	height: 50px;
+	float: left;
+	background: #4066C4;
+}
+.header2{
+	width: 20%;
+	height: 50px;
+	float: left;
+	background: #4066C4;
+
+}
+.header3{
+	width: 40%;
+	height: 50px;
+	float: left;
+	background: #4066C4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header3 span{
+	font-size: 20px;
+
+}
+.header3 i{
+	font-size: 30px;
+	margin: 20px;
+}
+.header4{
+	width: 40%;
+	height: 50px;
+	float: left;
+	background: #4066C4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.header4 span{
+	font-size: 20px;
+	color: white;
+
+}
+.header4 i{
+	font-size: 30px;
+	margin: 20px;
+	}
+.header5{
+	width: 50%;
+	height: 50px;
+	float: left;
+	background: #4066C4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	font-size: 30px;
+	cursor: pointer;
+}
+.face{
+	width: 50px;
+	border-left: 2px solid white;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 180px;
+	transition: 0.5;
+}
+.face:hover{
+	border: 2px solid white;
+}
+
+.inst{
+	width: 50px;
+	border-left: 2px solid white;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 130px;
+	transition: 0.5;
+}
+.inst:hover{
+	border: 2px solid white;
+}
+.what{
+	width: 50px;
+	border-left: 2px solid white;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 80px;
+	transition: 0.5;
+}
+.what:hover{
+	border: 2px solid white;
+}
+.yout{
+	width: 50px;
+	border-left: 2px solid white;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 30px;
+	transition: 0.5;
+	/*font-color: white;*/
+}
+.yout:hover{
+	border: 2px solid white;
+}
+.center{
+	width: 100%;
+	height: 600px;
+	float: left;
+	background: red;
+	background-image: url(../img/8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.center2{
+	width: 50%;
+	height: 100px;
+	float: left;	
+	position: relative;
+}
+.center2 span{
+	font-size: 30px;
+	/*color: #314BC5;*/
+	position: absolute;
+	left: 100px;
+	bottom: 30px;
+	/*font-weight: bold;*/
+}
+.center3{
+	width: 50%;
+	height: 100px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	/*position: relative;*/
+}
+.center3 ul{
+	list-style-type: none;
+}
+.center3 ul li{
+	font-size: 18px;
+	float: left;
+	margin-right: 70px;
+	transition: 0.5s;
+
+
+}
+.center3 ul li:hover{
+ 	border-bottom: 3px solid white;
+ 	transform: scale(1.5);
+}
+.center4{
+	width: 100%;
+	height: 50px;
+	/*background: white;*/
+	float: left;
+	position: relative;
+	
+}
+.center4 span{
+	font-size: 20px;
+	color: #4066C4;
+	position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.center5{
+	width: 100%;
+	height: 70px;
+	/*background: magenta;*/
+	float: left;
+	position: relative;
+}
+.center5 span{
+	font-size: 40px;
+	color: white;
+	position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.center6{
+	width: 100%;
+	height: 70px;
+	/*background: magenta;*/
+	float: left;
+	position: relative;
+}
+.center6 span{
+	font-size: 40px;
+	color: white;
+	position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.center7{
+	width: 50%;
+	height: 150px;
+	/*background: lightblue;*/
+	float: left;
+	position: relative;
+}
+.center7 span{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.center9{
+	width: 50%;
+	height: 150px;
+	/*background: lightblue;*/
+	float: left;
+	position: relative;
+}
+.center8{
+	width: 200px;
+	height: 70px;
+    float: left;
+    background: #4066C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    left: 230px;
+    cursor: pointer;
+
+}
+.center8 span{
+	font-size: 30px;
+    position: absolute;
+}
+.footer{
+    width: 50%;
+    height: 105px;
+    float: left;
+    background: #4066C4;
+    position: relative;
+
+}
+.footer span{
+	font-size: 30px;
+	position: absolute;
+	left: 100px;
+    bottom: 30px;
+}
+.foot3{
+	 width: 50%;
+    height: 105px;
+    float: left;
+    background: #4066C4;
+    position: relative;
+}
+.foot3 span{
+	font-size: 30px;
+	position: absolute;
+	right: 150px;
+	bottom: 30px;
+	border: 2px solid white;
+	border-radius: 50px;
+	transition: 1s;
+	cursor: pointer;
+}
+.foot3 span:hover{
+	border: 3px solid white;
+	transform: scale(1.3);
+}
